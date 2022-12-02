@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio Website </title>
+     <link rel="stylesheet" href="styles.css">
+     <script src="https://kit.fontawesome.com/4b8815d204.js" crossorigin="anonymous"></script>
+</head>
+<body>   
+ <div id="header">
+    <div class="container">
+        <nav> 
+            <img src="image/Newlogonino.png" class="logo">
+              
+            <ul id="sidemenu"> 
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>   
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> WEB DESIGNER </p>
+            <h1>HI, I'M <span>Niño </span><br>FROM PHILIPPINES</h1>
+        </div>
+    </div>
+</div> 
+<!-- -----------------about--------------- -->
+<div id="about">
+    <div class="container">
+         <div class="row">
+             <div class="about-col-1">
+                 <img src="image/usernino.png">
+             </div>  
+             <div class="about-col-2">
+                 <h1 class="sub-title">About Me</h1>
+                 <p>Hi  i'm Niño bacsal   i live   Doña Nikasia blk7   Commonwelth .Quezon city  
+                    my friends and my  family call me  Ninz i am   Study ICCT  major   cousrse ACT B   .
+                    Computer programming is a fundamental skill for so many different applications, not just software development 
+                    or cutting-edge research into artificial intelligence.
+                    
+                     </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                     <li><span>DRAWING  </span><br>i love drawing because this hobby is my favorite timepass. I draw in every mood. It helps me put my emotions on the canvas. Whenever I feel low or sad, I just put my sketchbook out from the cupboard and start drawing anything, whatever in my mind.</li>
+                     <li><span>WEB DESIGNER</span><br>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. A web designer is responsible for creating the design and layout of a website or web pages. It and can mean working on a brand new website or updating an already existing site.</li>
+                     <li><span>VIDEO EDITOR</span><br> Video Editor is tasked with taking the raw footage shot by a film crew and director and turning it into the final product. This means following an outline, script or shot list and assembling the footage into one cohesive video or film. Often in video and film work, there are many camera angles and takes recorded. It is
+                         the responsibility of the Video Editor to review all the footage and create the best output by cutting and connecting various footage, adding sound effects and graphics and fine-tuning the completed video or film.
+                        
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>IT </span><br>Programming. Being able to program will be a must for those who want to develop software, web applications, and websites. ...</li>
+                    <li><span>TRAFFIC INFORCER</span><br>i work now as a traffic inforcer in mmda teaffic division unit till  presen</li>
+                    <li><span>EDITOR</span><br>As a film/video editor, you'll manage material such as camera footage, dialogue, sound effects, graphics and special effects to produce a final film or video product. This is a key role in the post-production process and your skills can determine the quality and delivery of the finished result  </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022</span><br>ICCT COLLEGE </li>
+                    <li><span></span><br></li>
+                    <li><span></span><br></li>
+                </ul>
+            </div>
+        </div>
+     </div>
+  </div>
+</div>
+<!-- -------------services-------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Develop</h2>
+              <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+              <a href="#">Learn more</a>
+            </div>  
+            <div>
+                <i class="fa-solid fa-traffic-light"></i>
+                <h2>MMDA</h2>
+                <p>The MMDA shall set the policies concerning traffic in Metro Manila, and shall coordinate and regulate the implementation of all programs and projects concerning traffic management specifically pertaining to enforcement, engineering and education.</p>
+                <a href="#">Learn more</a>
+              </div> 
+              <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Editor</h2>
+                <p>Video Editors are generally responsible for editing and assembling recorded raw material into a suitable, finished product ready for broadcasting. The material may include camera footage, dialogue, sound effects, graphics and special effects.</p>
+                <a href="#">learn more</a>
+              </div> 
+        </div>
+    </div>
+</div> 
+<!-- --------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+         <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="image/WEBDESIGN.png">
+                <div class="layer">
+                    <h3>Web System</h3>
+                    <p> Provides customers an easy way to contact you and learn more about your products, services and business</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="image/MMDA logo.png">
+                <div class="layer">
+                    <h3>TRAFFIC INFORCER</h3>
+                    <p> Traffic Enforcers are instructed to accomplish the OVR (Ordinance Violation Receipt) without any delay or argument on the road, so as to avoid traffic congestion. 6. Before apprehending, the Traffic Enforcer should flag down the vehicle and lead it to the roadside where it will not obstruct the flow of traffic</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="image/video1.png">
+                <div class="layer">
+                    <h3>VIDEO EDITOR</h3>
+                    <p> The material may include camera footage, dialogue, sound effects, graphics and special effects..</p>
+                        <a href="#"><i class="fa-solid fa-traffic-light"></i>
+                </div> 
+            </div>
+         </div>
+         <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- ---------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>basalnino57@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09923532852</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100075340697984"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100075340697984"><i class="fab fa-YouTube"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100075340697984"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100075340697984"><i class="fa-brands fa-square-twitter"></i></a>
+                    
+                </div>
+                <a href=""class="btn btn2">Download </a>
+            </div>
+            <div class="contact-right">
+        <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script> 
+ 
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link"); 
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right=  "0";
+    }
+    function closemenu(){
+        sidemeu.style.right= "-200px";
+    }
+
+</script>
+
+</body>
+</html>
